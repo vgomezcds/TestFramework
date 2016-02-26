@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 #
 
 s.name         = "TestFramework"
-s.version      = "0.0.6"
+s.version      = "0.0.7"
 s.summary      = "Just a test framework"
 
 s.description  = <<-DESC
@@ -79,7 +79,7 @@ s.platform     = :ios
 #  Supports git, hg, bzr, svn and HTTP.
 #
 
-s.source       = { :git => "https://github.com/vgomezcds/TestFramework.git", :tag => "v0.0.6" }
+s.source       = { :git => "https://github.com/vgomezcds/TestFramework.git", :tag => "v0.0.7" }
 
 
 # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
