@@ -7,13 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		358FD3F8020A7F9721684FDE /* libPods-TestFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F715A26A3F4D5D6E5EFD03C8 /* libPods-TestFramework.a */; };
 		3C62C1B31C80A82A00E847CA /* TestFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C62C1B21C80A82A00E847CA /* TestFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C62C1BE1C80A83E00E847CA /* FClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C62C1BA1C80A83E00E847CA /* FClass.h */; };
+		3C62C1BF1C80A83E00E847CA /* FClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C62C1BB1C80A83E00E847CA /* FClass.m */; };
+		3C62C1C01C80A83E00E847CA /* ViewToShow.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C62C1BC1C80A83E00E847CA /* ViewToShow.h */; };
+		3C62C1C11C80A83E00E847CA /* ViewToShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C62C1BD1C80A83E00E847CA /* ViewToShow.m */; };
+		3C62C1C31C80AB3100E847CA /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C62C1C21C80AB3100E847CA /* Accelerate.framework */; };
+		3C62C1C51C80AB3700E847CA /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C62C1C41C80AB3700E847CA /* AssetsLibrary.framework */; };
+		3C62C1C71C80AB3D00E847CA /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C62C1C61C80AB3D00E847CA /* CoreMedia.framework */; };
+		3C62C1C91C80AB4500E847CA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C62C1C81C80AB4500E847CA /* AudioToolbox.framework */; };
+		3C62C1CB1C80AB4C00E847CA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C62C1CA1C80AB4C00E847CA /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		38591A6C9DF89268FFA3A047 /* Pods-TestFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestFramework/Pods-TestFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		3C62C1AF1C80A82A00E847CA /* TestFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C62C1B21C80A82A00E847CA /* TestFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestFramework.h; sourceTree = "<group>"; };
 		3C62C1B41C80A82A00E847CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C62C1BA1C80A83E00E847CA /* FClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FClass.h; sourceTree = "<group>"; };
+		3C62C1BB1C80A83E00E847CA /* FClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FClass.m; sourceTree = "<group>"; };
+		3C62C1BC1C80A83E00E847CA /* ViewToShow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewToShow.h; sourceTree = "<group>"; };
+		3C62C1BD1C80A83E00E847CA /* ViewToShow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewToShow.m; sourceTree = "<group>"; };
+		3C62C1C21C80AB3100E847CA /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		3C62C1C41C80AB3700E847CA /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		3C62C1C61C80AB3D00E847CA /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		3C62C1C81C80AB4500E847CA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3C62C1CA1C80AB4C00E847CA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		485E7A0168E91BD177507857 /* Pods-TestFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestFramework/Pods-TestFramework.release.xcconfig"; sourceTree = "<group>"; };
+		F715A26A3F4D5D6E5EFD03C8 /* libPods-TestFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,6 +43,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C62C1CB1C80AB4C00E847CA /* AVFoundation.framework in Frameworks */,
+				3C62C1C91C80AB4500E847CA /* AudioToolbox.framework in Frameworks */,
+				3C62C1C71C80AB3D00E847CA /* CoreMedia.framework in Frameworks */,
+				3C62C1C51C80AB3700E847CA /* AssetsLibrary.framework in Frameworks */,
+				3C62C1C31C80AB3100E847CA /* Accelerate.framework in Frameworks */,
+				358FD3F8020A7F9721684FDE /* libPods-TestFramework.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,6 +60,8 @@
 			children = (
 				3C62C1B11C80A82A00E847CA /* TestFramework */,
 				3C62C1B01C80A82A00E847CA /* Products */,
+				B353B47DC609D880B93070F7 /* Pods */,
+				A49FA88E76FEA265E642BAB2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -46,10 +76,36 @@
 		3C62C1B11C80A82A00E847CA /* TestFramework */ = {
 			isa = PBXGroup;
 			children = (
+				3C62C1BA1C80A83E00E847CA /* FClass.h */,
+				3C62C1BB1C80A83E00E847CA /* FClass.m */,
+				3C62C1BC1C80A83E00E847CA /* ViewToShow.h */,
+				3C62C1BD1C80A83E00E847CA /* ViewToShow.m */,
 				3C62C1B21C80A82A00E847CA /* TestFramework.h */,
 				3C62C1B41C80A82A00E847CA /* Info.plist */,
 			);
 			path = TestFramework;
+			sourceTree = "<group>";
+		};
+		A49FA88E76FEA265E642BAB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C62C1CA1C80AB4C00E847CA /* AVFoundation.framework */,
+				3C62C1C81C80AB4500E847CA /* AudioToolbox.framework */,
+				3C62C1C61C80AB3D00E847CA /* CoreMedia.framework */,
+				3C62C1C41C80AB3700E847CA /* AssetsLibrary.framework */,
+				3C62C1C21C80AB3100E847CA /* Accelerate.framework */,
+				F715A26A3F4D5D6E5EFD03C8 /* libPods-TestFramework.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B353B47DC609D880B93070F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38591A6C9DF89268FFA3A047 /* Pods-TestFramework.debug.xcconfig */,
+				485E7A0168E91BD177507857 /* Pods-TestFramework.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,6 +115,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C62C1BE1C80A83E00E847CA /* FClass.h in Headers */,
+				3C62C1C01C80A83E00E847CA /* ViewToShow.h in Headers */,
 				3C62C1B31C80A82A00E847CA /* TestFramework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -70,10 +128,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C62C1B71C80A82A00E847CA /* Build configuration list for PBXNativeTarget "TestFramework" */;
 			buildPhases = (
+				362F23218EDD5255F68F6871 /* Check Pods Manifest.lock */,
 				3C62C1AA1C80A82A00E847CA /* Sources */,
 				3C62C1AB1C80A82A00E847CA /* Frameworks */,
 				3C62C1AC1C80A82A00E847CA /* Headers */,
 				3C62C1AD1C80A82A00E847CA /* Resources */,
+				32014B409D966FEEF63EDB18 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,11 +185,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		32014B409D966FEEF63EDB18 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestFramework/Pods-TestFramework-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		362F23218EDD5255F68F6871 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3C62C1AA1C80A82A00E847CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C62C1C11C80A83E00E847CA /* ViewToShow.m in Sources */,
+				3C62C1BF1C80A83E00E847CA /* FClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +252,7 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -204,6 +300,7 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -226,6 +323,7 @@
 		};
 		3C62C1B81C80A82A00E847CA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38591A6C9DF89268FFA3A047 /* Pods-TestFramework.debug.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -242,6 +340,7 @@
 		};
 		3C62C1B91C80A82A00E847CA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 485E7A0168E91BD177507857 /* Pods-TestFramework.release.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -275,6 +374,7 @@
 				3C62C1B91C80A82A00E847CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
