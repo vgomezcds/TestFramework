@@ -1,0 +1,29 @@
+dependencies: \
+  /Users/viryg/Desktop/Crap/TestFramework/TestFramework/ViewToShow.m \
+  /Users/viryg/Desktop/Crap/TestFramework/TestFramework/ViewToShow.h \
+  /Users/viryg/Desktop/Crap/TestFramework/Pods/PPpdf417/MicroBlink.embeddedframework/MicroBlink.framework/Headers/MicroBlink.h \
+  /Users/viryg/Desktop/Crap/TestFramework/Pods/PPpdf417/MicroBlink.embeddedframework/MicroBlink.framework/Headers/PPScanDelegate.h \
+  /Users/viryg/Desktop/Crap/TestFramework/Pods/PPpdf417/MicroBlink.embeddedframework/MicroBlink.framework/Headers/PPOverlayViewController.h \
+  /Users/viryg/Desktop/Crap/TestFramework/Pods/PPpdf417/MicroBlink.embeddedframework/MicroBlink.framework/Headers/PPScanningViewController.h \
+  /Users/viryg/Desktop/Crap/TestFramework/Pods/PPpdf417/MicroBlink.embeddedframework/MicroBlink.framework/Headers/PPDetectionStatus.h \
+  /Users/viryg/Desktop/Crap/TestFramework/Pods/PPpdf417/MicroBlink.embeddedframework/MicroBlink.framework/Headers/PPMetadata.h \
+  /Users/viryg/Desktop/Crap/TestFramework/Pods/PPpdf417/MicroBlink.embeddedframework/MicroBlink.framework/Headers/PPSettings.h \
+  /Users/viryg/Desktop/Crap/TestFramework/Pods/PPpdf417/MicroBlink.embeddedframework/MicroBlink.framework/Headers/PPCameraSettings.h \
+  /Users/viryg/Desktop/Crap/TestFramework/Pods/PPpdf417/MicroBlink.embeddedframework/MicroBlink.framework/Headers/PPLicenseSettings.h \
+  /Users/viryg/Desktop/Crap/TestFramework/Pods/PPpdf417/MicroBlink.embeddedframework/MicroBlink.framework/Headers/PPUiSettings.h \
+  /Users/viryg/Desktop/Crap/TestFramework/Pods/PPpdf417/MicroBlink.embeddedframework/MicroBlink.framework/Headers/PPScanSettings.h \
+  /Users/viryg/Desktop/Crap/TestFramework/Pods/PPpdf417/MicroBlink.embeddedframework/MicroBlink.framework/Headers/PPRecognizerSettings.h \
+  /Users/viryg/Desktop/Crap/TestFramework/Pods/PPpdf417/MicroBlink.embeddedframework/MicroBlink.framework/Headers/PPDetectorSettings.h \
+  /Users/viryg/Desktop/Crap/TestFramework/Pods/PPpdf417/MicroBlink.embeddedframework/MicroBlink.framework/Headers/PPMetadataSettings.h \
+  /Users/viryg/Desktop/Crap/TestFramework/Pods/PPpdf417/MicroBlink.embeddedframework/MicroBlink.framework/Headers/PPImageMetadata.h \
+  /Users/viryg/Desktop/Crap/TestFramework/Pods/PPpdf417/MicroBlink.embeddedframework/MicroBlink.framework/Headers/PPTextMetadata.h \
+  /Users/viryg/Desktop/Crap/TestFramework/Pods/PPpdf417/MicroBlink.embeddedframework/MicroBlink.framework/Headers/PPCoordinator.h \
+  /Users/viryg/Desktop/Crap/TestFramework/Pods/PPpdf417/MicroBlink.embeddedframework/MicroBlink.framework/Headers/PPPdf417RecognizerSettings.h \
+  /Users/viryg/Desktop/Crap/TestFramework/Pods/PPpdf417/MicroBlink.embeddedframework/MicroBlink.framework/Headers/PPPdf417RecognizerResult.h \
+  /Users/viryg/Desktop/Crap/TestFramework/Pods/PPpdf417/MicroBlink.embeddedframework/MicroBlink.framework/Headers/PPRecognizerResult.h \
+  /Users/viryg/Desktop/Crap/TestFramework/Pods/PPpdf417/MicroBlink.embeddedframework/MicroBlink.framework/Headers/PPUsdlRecognizerSettings.h \
+  /Users/viryg/Desktop/Crap/TestFramework/Pods/PPpdf417/MicroBlink.embeddedframework/MicroBlink.framework/Headers/PPUsdlRecognizerResult.h \
+  /Users/viryg/Desktop/Crap/TestFramework/Pods/PPpdf417/MicroBlink.embeddedframework/MicroBlink.framework/Headers/PPZXingRecognizerSettings.h \
+  /Users/viryg/Desktop/Crap/TestFramework/Pods/PPpdf417/MicroBlink.embeddedframework/MicroBlink.framework/Headers/PPZXingRecognizerResult.h \
+  /Users/viryg/Desktop/Crap/TestFramework/Pods/PPpdf417/MicroBlink.embeddedframework/MicroBlink.framework/Headers/PPBarDecoderRecognizerSettings.h \
+  /Users/viryg/Desktop/Crap/TestFramework/Pods/PPpdf417/MicroBlink.embeddedframework/MicroBlink.framework/Headers/PPBarDecoderRecognizerResult.h
