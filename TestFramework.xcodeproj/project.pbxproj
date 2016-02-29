@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2E5BFE95C2657B6A75F663DE /* libPods-TestFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE3F135D17FD04150ADA7F0 /* libPods-TestFramework.a */; };
+		2E5BFE95C2657B6A75F663DE /* libPods-TestFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE3F135D17FD04150ADA7F0 /* libPods-TestFramework.a */; settings = {ATTRIBUTES = (Weak, ); }; };
 		3C62C1B31C80A82A00E847CA /* TestFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C62C1B21C80A82A00E847CA /* TestFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3C62C1BE1C80A83E00E847CA /* FClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C62C1BA1C80A83E00E847CA /* FClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3C62C1BF1C80A83E00E847CA /* FClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C62C1BB1C80A83E00E847CA /* FClass.m */; };
