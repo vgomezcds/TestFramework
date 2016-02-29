@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 #
 
 s.name         = "TestFramework"
-s.version      = "0.1.0"
+s.version      = "0.1.1"
 s.summary      = "Just a test framework"
 
 s.description  = <<-DESC
@@ -79,7 +79,7 @@ s.platform     = :ios
 #  Supports git, hg, bzr, svn and HTTP.
 #
 
-s.source       = { :git => "https://github.com/vgomezcds/TestFramework.git", :tag => "v0.1.0" }
+s.source       = { :git => "https://github.com/vgomezcds/TestFramework.git", :tag => "v0.1.1" }
 
 
 # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -95,7 +95,7 @@ s.requires_arc = true
 
 s.xcconfig = {
 'GCC_PREPROCESSOR_DEFINITIONS' => 'DEBUG=1 $(inherited) CVLIB_IMG_NOCODEC',
-'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/TestFramework/TestFramework.framework"'
+'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/TestFramework/"'
 }
 
 s.ios.frameworks = 'TestFramework', 'SystemConfiguration', 'AudioToolbox', 'AVFoundation', 'CoreMedia', 'CoreVideo', 'CoreGraphics', 'QuartzCore'
