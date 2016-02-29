@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 #
 
 s.name         = "TestFramework"
-s.version      = "0.0.11"
+s.version      = "0.1.0"
 s.summary      = "Just a test framework"
 
 s.description  = <<-DESC
@@ -79,23 +79,23 @@ s.platform     = :ios
 #  Supports git, hg, bzr, svn and HTTP.
 #
 
-s.source       = { :git => "https://github.com/vgomezcds/TestFramework.git", :tag => "v0.0.11" }
+s.source       = { :git => "https://github.com/vgomezcds/TestFramework.git", :tag => "v0.1.0" }
 
 
 # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-s.preserve_paths = 'TestFramework.embeddedframework/*'
+s.preserve_paths = 'TestFramework.framework/*'
 s.platform = :ios
 
 # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
 s.ios.deployment_target = '8.0'
-s.source_files = 'TestFramework.embeddedframework/Headers/*.{h}'
+s.source_files = 'TestFramework.framework/Headers/*.{h}'
 s.requires_arc = true
 
 s.xcconfig = {
 'GCC_PREPROCESSOR_DEFINITIONS' => 'DEBUG=1 $(inherited) CVLIB_IMG_NOCODEC',
-'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/TestFramework/TestFramework.embeddedframework"'
+'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/TestFramework/TestFramework.framework"'
 }
 
 s.ios.frameworks = 'TestFramework', 'SystemConfiguration', 'AudioToolbox', 'AVFoundation', 'CoreMedia', 'CoreVideo', 'CoreGraphics', 'QuartzCore'
