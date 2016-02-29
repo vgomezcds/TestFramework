@@ -1,0 +1,30 @@
+PODS:
+  - AFNetworking (3.0.4):
+    - AFNetworking/NSURLSession (= 3.0.4)
+    - AFNetworking/Reachability (= 3.0.4)
+    - AFNetworking/Security (= 3.0.4)
+    - AFNetworking/Serialization (= 3.0.4)
+    - AFNetworking/UIKit (= 3.0.4)
+  - AFNetworking/NSURLSession (3.0.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.0.4)
+  - AFNetworking/Security (3.0.4)
+  - AFNetworking/Serialization (3.0.4)
+  - AFNetworking/UIKit (3.0.4):
+    - AFNetworking/NSURLSession
+  - OpenCV (3.0.0)
+  - PPpdf417 (4.0.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - OpenCV (~> 3.0)
+  - PPpdf417 (= 4.0.0)
+
+SPEC CHECKSUMS:
+  AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
+  OpenCV: be07c02f0d8f125f1d40d261e66a66cb66ece3b3
+  PPpdf417: 67f5cb7e0c483bcea48bcef3d88485ed8493cfd4
+
+COCOAPODS: 0.38.2

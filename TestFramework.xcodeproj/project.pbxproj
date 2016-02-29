@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E5BFE95C2657B6A75F663DE /* libPods-TestFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE3F135D17FD04150ADA7F0 /* libPods-TestFramework.a */; };
 		3C62C1B31C80A82A00E847CA /* TestFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C62C1B21C80A82A00E847CA /* TestFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3C62C1BE1C80A83E00E847CA /* FClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C62C1BA1C80A83E00E847CA /* FClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3C62C1BF1C80A83E00E847CA /* FClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C62C1BB1C80A83E00E847CA /* FClass.m */; };
@@ -32,6 +33,9 @@
 		3C62C1C61C80AB3D00E847CA /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		3C62C1C81C80AB4500E847CA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		3C62C1CA1C80AB4C00E847CA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		54BB6B14D1651A41EB8D7D54 /* Pods-TestFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestFramework/Pods-TestFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		5AE950874C1A044DC4168E44 /* Pods-TestFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestFramework/Pods-TestFramework.release.xcconfig"; sourceTree = "<group>"; };
+		FDE3F135D17FD04150ADA7F0 /* libPods-TestFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,18 +48,29 @@
 				3C62C1C71C80AB3D00E847CA /* CoreMedia.framework in Frameworks */,
 				3C62C1C51C80AB3700E847CA /* AssetsLibrary.framework in Frameworks */,
 				3C62C1C31C80AB3100E847CA /* Accelerate.framework in Frameworks */,
+				2E5BFE95C2657B6A75F663DE /* libPods-TestFramework.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36ABD93E73D6FDDEE5262C69 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54BB6B14D1651A41EB8D7D54 /* Pods-TestFramework.debug.xcconfig */,
+				5AE950874C1A044DC4168E44 /* Pods-TestFramework.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3C62C1A51C80A82A00E847CA = {
 			isa = PBXGroup;
 			children = (
 				3C62C1B11C80A82A00E847CA /* TestFramework */,
 				3C62C1B01C80A82A00E847CA /* Products */,
 				A49FA88E76FEA265E642BAB2 /* Frameworks */,
+				36ABD93E73D6FDDEE5262C69 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,6 +103,7 @@
 				3C62C1C61C80AB3D00E847CA /* CoreMedia.framework */,
 				3C62C1C41C80AB3700E847CA /* AssetsLibrary.framework */,
 				3C62C1C21C80AB3100E847CA /* Accelerate.framework */,
+				FDE3F135D17FD04150ADA7F0 /* libPods-TestFramework.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,10 +128,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C62C1B71C80A82A00E847CA /* Build configuration list for PBXNativeTarget "TestFramework" */;
 			buildPhases = (
+				9502FC9483603FAE6FFCEE35 /* Check Pods Manifest.lock */,
 				3C62C1AA1C80A82A00E847CA /* Sources */,
 				3C62C1AB1C80A82A00E847CA /* Frameworks */,
 				3C62C1AC1C80A82A00E847CA /* Headers */,
 				3C62C1AD1C80A82A00E847CA /* Resources */,
+				A0344D68C98079CF53B3BC67 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -166,6 +184,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9502FC9483603FAE6FFCEE35 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A0344D68C98079CF53B3BC67 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestFramework/Pods-TestFramework-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3C62C1AA1C80A82A00E847CA /* Sources */ = {
@@ -272,6 +323,7 @@
 		};
 		3C62C1B81C80A82A00E847CA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54BB6B14D1651A41EB8D7D54 /* Pods-TestFramework.debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -291,6 +343,7 @@
 		};
 		3C62C1B91C80A82A00E847CA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AE950874C1A044DC4168E44 /* Pods-TestFramework.release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;

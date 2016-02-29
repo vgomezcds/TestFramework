@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-//#import <MicroBlink/MicroBlink.h>
+#import <MicroBlink/MicroBlink.h>
 
 @interface ViewToShow : UIViewController
 
