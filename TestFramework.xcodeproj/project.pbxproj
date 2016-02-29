@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3C62C1B31C80A82A00E847CA /* TestFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C62C1B21C80A82A00E847CA /* TestFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3C62C1BE1C80A83E00E847CA /* FClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C62C1BA1C80A83E00E847CA /* FClass.h */; };
+		3C62C1BE1C80A83E00E847CA /* FClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C62C1BA1C80A83E00E847CA /* FClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3C62C1BF1C80A83E00E847CA /* FClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C62C1BB1C80A83E00E847CA /* FClass.m */; };
 		3C62C1C01C80A83E00E847CA /* ViewToShow.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C62C1BC1C80A83E00E847CA /* ViewToShow.h */; };
 		3C62C1C11C80A83E00E847CA /* ViewToShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C62C1BD1C80A83E00E847CA /* ViewToShow.m */; };
@@ -274,7 +274,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
-				DEFINES_MODULE = YES;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -292,7 +293,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
-				DEFINES_MODULE = YES;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";

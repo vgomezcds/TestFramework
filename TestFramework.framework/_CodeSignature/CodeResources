@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/FClass.h</key>
+		<data>
+		nzeq0z/oU+kaLJrBpY30L6YvLvE=
+		</data>
 		<key>Headers/TestFramework.h</key>
 		<data>
 		PPbA3gmdSlSqLCIOraExu5OuAr8=
@@ -12,20 +16,16 @@
 		<data>
 		MatttX8cjYRDZM2Ert9pod+B1XU=
 		</data>
-		<key>Modules/module.modulemap</key>
-		<data>
-		OVfd69Bh6ZZ9Jh0qc7VJePF19lg=
-		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/FClass.h</key>
+		<data>
+		nzeq0z/oU+kaLJrBpY30L6YvLvE=
+		</data>
 		<key>Headers/TestFramework.h</key>
 		<data>
 		PPbA3gmdSlSqLCIOraExu5OuAr8=
-		</data>
-		<key>Modules/module.modulemap</key>
-		<data>
-		OVfd69Bh6ZZ9Jh0qc7VJePF19lg=
 		</data>
 	</dict>
 	<key>rules</key>
