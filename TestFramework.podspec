@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 #
 
 s.name         = "TestFramework"
-s.version      = "0.1.7"
+s.version      = "0.1.8"
 s.summary      = "Just a test framework"
 
 s.description  = <<-DESC
@@ -79,7 +79,7 @@ s.platform     = :ios
 #  Supports git, hg, bzr, svn and HTTP.
 #
 
-s.source       = { :git => "https://github.com/vgomezcds/TestFramework.git", :tag => "v0.1.7" }
+s.source       = { :git => "https://github.com/vgomezcds/TestFramework.git", :tag => "v0.1.8" }
 
 
 # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -98,7 +98,7 @@ s.xcconfig = {
 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/TestFramework/"'
 }
 
-s.ios.frameworks = 'TestFramework', 'SystemConfiguration', 'AudioToolbox', 'AVFoundation', 'CoreMedia', 'CoreVideo', 'CoreGraphics', 'QuartzCore'
+s.ios.frameworks = 'TestFramework','AudioToolbox', 'AVFoundation', 'CoreMedia', 'Accelerate','AssetsLibrary'
 s.ios.libraries = 'iconv', 'c++', 'z'
 
 end
