@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 #
 
 s.name         = "TestFramework"
-s.version      = "0.1.9"
+s.version      = "0.2.0"
 s.summary      = "Just a test framework"
 
 s.description  = <<-DESC
@@ -79,7 +79,7 @@ s.platform     = :ios
 #  Supports git, hg, bzr, svn and HTTP.
 #
 
-s.source       = { :git => "https://github.com/vgomezcds/TestFramework.git", :tag => "v0.1.9" }
+s.source       = { :git => "https://github.com/vgomezcds/TestFramework.git", :tag => "v0.2.0" }
 
 
 # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -95,7 +95,8 @@ s.requires_arc = true
 
 s.xcconfig = {
 'GCC_PREPROCESSOR_DEFINITIONS' => 'DEBUG=1 $(inherited) CVLIB_IMG_NOCODEC',
-'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/TestFramework/"'
+'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/TestFramework/"',
+'SWIFT_INSTALL_OBJC_HEADER' = 'YES'
 }
 
 s.ios.frameworks = 'TestFramework','AudioToolbox', 'AVFoundation', 'CoreMedia', 'Accelerate','AssetsLibrary'
