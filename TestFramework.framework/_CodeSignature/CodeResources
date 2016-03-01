@@ -16,6 +16,10 @@
 		<data>
 		MatttX8cjYRDZM2Ert9pod+B1XU=
 		</data>
+		<key>Modules/module.modulemap</key>
+		<data>
+		OVfd69Bh6ZZ9Jh0qc7VJePF19lg=
+		</data>
 		<key>PPbeep.wav</key>
 		<data>
 		/vVLHvQpOeIv61DbkFTqizQN+HM=
@@ -66,6 +70,10 @@
 		<key>Headers/TestFramework.h</key>
 		<data>
 		PPbA3gmdSlSqLCIOraExu5OuAr8=
+		</data>
+		<key>Modules/module.modulemap</key>
+		<data>
+		OVfd69Bh6ZZ9Jh0qc7VJePF19lg=
 		</data>
 		<key>PPbeep.wav</key>
 		<data>
