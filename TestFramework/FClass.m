@@ -18,6 +18,10 @@
     NSLog(@"SWING!");
 }
 
++ (void)printYourMomma {
+    NSLog(@"Yo momma!");
+}
+
 /**
  * Method allocates and initializes the Scanning coordinator object.
  * Coordinator is initialized with settings for scanning

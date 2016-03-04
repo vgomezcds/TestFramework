@@ -12,6 +12,8 @@
 
 + (void)printOnConsole;
 
++ (void)printYourMomma;
+
 - (void)showCamera;
 
 @end
